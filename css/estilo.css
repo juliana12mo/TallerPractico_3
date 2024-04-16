@@ -1,0 +1,134 @@
+:root {
+    --verde: #9ed033;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .contenedorVertical {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contenedor {
+    display: flex;
+  }
+  
+  .fondo {
+    background-image: url(../recursos/imagenes/imagenViatren.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  
+  .barra {
+    display: flex;
+    background-color: white;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 30%;
+    height: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 180px;
+  }
+  
+  .barraLinks {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .barraLinks a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 27px;
+    margin: 0 0px;
+    color: #9a9a9a;
+    font-size: 15px;
+    border-right: 1px solid rgb(235, 231, 231);
+  }
+  
+  .recuadro {
+    width: 27%;
+    height: 230px;
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .tarjetas {
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  .tarjetas h3 {
+    background-color: var(--verde);
+    color: white;
+    margin-top: -44px;
+    height: 35px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+  }
+  
+  .tarjetas img {
+    width: 250px;
+    height: 200px;
+  }
+  
+  .tarjetas p {
+    text-align: left;
+    color: var(--verde);
+    font-weight: bold;
+  }
+  
+  .tarjetas button {
+    background-color: var(--verde);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .logos {
+    margin-top: 100px;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    margin-bottom: 100px;
+  }
+  
+  .logos div {
+    width: 100%;
+    border-right: 1px solid #e6e0e0;
+    border-left: 1px solid #e6e0e0;
+  }
+  
+  .informacion {
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  .informacion a {
+    text-decoration: none;
+    color: var(--verde);
+  }
+  
+  .informacion img {
+    margin-top: -50px;
+    margin-bottom: 100px;
+  }
